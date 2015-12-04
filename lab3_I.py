@@ -63,10 +63,10 @@ count = 1
 i = 0
 correctUrl = ''
 urlsList = []
-mainUrl = 'http://lenta.ru'
-word = 'книга'
-#mainUrl = raw_input(u'Введите адрес URL: ')
-#word = raw_input(u'Введите слово, которое будем искать: ')
+#mainUrl = 'http://lenta.ru'
+#word = 'Медведев'
+mainUrl = raw_input(u'Введите адрес URL: ')
+word = raw_input(u'Введите слово, которое будем искать: ')
 urlsList.append(mainUrl)
 
 while (i < len(urlsList)) and (len(savedPages) <= numbPages):
